@@ -1,0 +1,27 @@
+#one-page{
+    height: 100%;
+    background-image: url("https://cdn.wallpapersafari.com/91/90/Bmhy8U.jpg");
+    background-size: auto;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto ;
+    
+}
+.container{
+    position: relative;
+    top: 15%;
+}
+h1{
+    font-size: 50px;
+}
+
+@media (max-width: 976px){
+    #one-page{
+        height: 150%;
+        background-image: url("https://cdn.wallpapersafari.com/91/90/Bmhy8U.jpg");
+        background-size: auto;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        -o-background-size: auto ; 
+    }
+}
