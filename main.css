@@ -1,0 +1,61 @@
+#book_list{
+    background: rgba(0,0,0,.75);
+    width: 92.5%;
+    height: 385px;
+    left: 25px;
+    overflow-y: scroll;
+    border-radius: 7.5px;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    table{
+        background: rgba(256,256,256,.75);
+        border-radius: 7.5px;
+        
+        thead{
+            color: #1a1a1a;
+        }
+        tbody{
+            color: #262626;
+        }
+        
+    }
+}
+
+#insertion_section{
+    background: rgba(0,0,0,.75);
+    border-radius: 7.5px;
+    padding: 15px 10px 15px 10px;
+    width: 100%;
+    .form-group{
+        width: 90%;
+        margin-left: 10%;
+
+        input,label{
+            width: 90%;
+        }
+        input{
+            opacity: .20;
+            transition: .5s;
+            outline: none;
+        }
+
+        #two-section{
+            margin-left: -7.5%;
+            input{
+                width: 85%;
+            }
+        }
+        button{
+            margin-left: -5%;
+        }
+
+    }
+
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
